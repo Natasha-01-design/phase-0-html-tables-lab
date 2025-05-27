@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML Tables</title>
-  </head>
-  <body>
-    <!-- Write your HTML here -->
-  </body>
+<html>
+<head>
+  <title>City Population Estimates</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    td.city {
+      background-color: #e6f9f9;
+      font-style: italic;
+      color: blue;
+    }
+    img {
+      height: 15px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>City</th>
+    <th>State</th>
+    <th>2017 estimate</th>
+  </tr>
+  <tr>
+    <td class="city"><em>New York</em></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_New_York.svg" alt="New York Flag"> New York</td>
+    <td>8,622,698</td>
+  </tr>
+  <tr>
+    <td class="city"><em>Los Angeles</em></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" alt="California Flag"> California</td>
+    <td>3,999,759</td>
+  </tr>
+  <tr>
+    <td class="city"><em>Chicago</em></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Illinois.svg" alt="Illinois Flag"> Illinois</td>
+    <td>2,716,450</td>
+  </tr>
+  <tr>
+    <td class="city"><em>Houston</em></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg" alt="Texas Flag"> Texas</td>
+    <td>2,312,717</td>
+  </tr>
+</table>
+
+</body>
 </html>
